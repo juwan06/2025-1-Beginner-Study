@@ -15,3 +15,14 @@
 
 * Rebase and merge (중앙 브랜치 내역 가져온 후 그위에 쌓아서 머지)
     * 명령어: git merge [브랜치 이름]
+---------------------    
+
+
+git reset 명령어 3가지 옵션
+===========
+
+--soft: 커밋만 되돌리고, 변경 사항은 Staging Area에 남김
+
+--mixed: 커밋 + Staging Area를 되돌리고, 변경 사항은 Working Directory에 남김
+
+--hard: 커밋 + Staging Area + Working Directory 전부 되돌림 (되돌릴 수 없음)
